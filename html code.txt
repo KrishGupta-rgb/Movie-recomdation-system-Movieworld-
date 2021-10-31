@@ -1,0 +1,25 @@
+<html><head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Movieworld</title> 
+  <link rel="shortcut icon" type="image" href="https://pngimage.net/wp-content/uploads/2018/06/vetorizar-png-5.png"> 
+  <link rel="stylesheet" href="style.css"> 
+  <script src="script.js" defer=""></script> 
+ </head> 
+ <body> 
+  <header> 
+   <img src="https://pngimage.net/wp-content/uploads/2018/06/vetorizar-png-5.png" height="50"> 
+   <div class="logo"> 
+     Movieworld 
+    <sup style="font-size: 12px;">Web </sup> 
+   </div> 
+   <form id="form"> 
+    <input type="text" id="search" placeholder="Search movies" class="search" autocomplete="off"> 
+   </form> 
+  </header> 
+  <h2 id="search_res"></h2> 
+  <p id="total_records"></p> 
+  <main id="main"></main> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+ 
+</body></html>
